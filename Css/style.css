@@ -132,3 +132,13 @@
         width: 50%;
     }
 }
+
+.blog-para{
+    width: 100%;
+    font-size: 54px;
+}
+
+.blog-body{
+    margin-left: 50px;
+    margin-right: 50px;
+}
