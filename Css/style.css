@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.landing-page{
+       background: linear-gradient(to right, rgba(0, 0, 0, 0.63), rgba(131, 131, 151, 0.5)), url(/ASSETS/image1.jpg);
+       height: 100vh;
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: contain;
+}
+
+.hero-1{
+    padding-top: 100px;
+    color: whitesmoke;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.hero-para{
+    color: whitesmoke;
+    width: 40%;
+    /* line-height: 2em; */
+}
+
+.bttn button{
+    background-color: coral;
+}
+
+.buttn{
+    background-color: coral;
+
+}
+.card2{
+    background-color: coral;
+}
+
+.hero2 .blog .blog-link{
+    color: blue;
+}
+
+.hero2{
+    position: relative;
+    top: 0;
+    border: 1px solid transparent;
+}
+.blog-link{
+    position: absolute;
+    top: 50px;
+    right: 82px;
+    color: black;
+}
+.hero-4{
+    position: relative;
+    top: 25px;
+}
+.hero-5{
+    position: absolute;
+    top: 10px;
+    left: 80px;
+}
+
+.card-images{
+
+}
+
+/* .guru{
+    background-color: yellow;
+    border: 2px solid black;
+} */
+.hero-card{
+    position: relative;
+    padding-top: 150px;
+    background-color: rgba(235, 237, 238, 0.89);
+    color: black;
+
+}
+.asset-hero{
+    border: 1px solid transparent;
+    border-radius: 50px;
+    height: 110px;
+    width: 110px;
+    position: absolute;
+    left: 70px;
+    top: 20px;
+
+}
+
+/* .card-design{
+    
+    
+} */
+
+.para-left{
+    padding: 30px;
+    width: 40%;
+}
+
+.para-right{
+    padding-left: 1000px;
+    width: 60%;
+    position: relative;
+}
+
+.about-blog{
+    height: 500px;
+    padding-top: 30px;
+}
+
+.blog-arrow-right{
+    background-color: coral;
+    color: black;
+}
+/* .blog-hero{
+    position: relative;
+    border: 2px solid red;
+} */
+.blog-arrow-1{
+    position: absolute;
+    left: 450px;
+}
+
+.blog-arrow-2{
+    position: absolute;
+    left: 500px;
+}
+
+.hero-foot{
+    height: 50vh;
+    background-color: rgb(70, 70, 71);
+    padding-top: 140px;
+
+}
+
+
+@media(min-width: 768px) {
+    .news-input{
+        width: 50%;
+    }
+}
