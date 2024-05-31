@@ -5,11 +5,13 @@
 }
 
 .landing-page{
-       background: linear-gradient(to right, rgba(0, 0, 0, 0.63), rgba(131, 131, 151, 0.5)), url(/ASSETS/image1.jpg);
+       background: linear-gradient(to right, rgba(0, 0, 0, 0.63), rgba(131, 131, 151, 0.5)), url(/ASSETS/car1.jpeg);
        height: 100vh;
        background-position: center;
        background-repeat: no-repeat;
-       background-size: contain;
+       background-size: cover;
+     
+       
 }
 
 .hero-1{
@@ -17,12 +19,12 @@
     color: whitesmoke;
     font-weight: 600;
     font-size: 25px;
+    
 }
 
 .hero-para{
     color: whitesmoke;
     width: 40%;
-    /* line-height: 2em; */
 }
 
 .bttn button{
@@ -80,11 +82,6 @@
 
 }
 
-/* .card-design{
-    
-    
-} */
-
 .para-left{
     padding: 30px;
     width: 40%;
@@ -105,10 +102,6 @@
     background-color: coral;
     color: black;
 }
-/* .blog-hero{
-    position: relative;
-    border: 2px solid red;
-} */
 .blog-arrow-1{
     position: absolute;
     left: 450px;
