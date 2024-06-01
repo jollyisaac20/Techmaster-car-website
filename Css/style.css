@@ -1,4 +1,4 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -19,6 +19,7 @@
     color: whitesmoke;
     font-weight: 600;
     font-size: 25px;
+    
     
 }
 
@@ -65,8 +66,8 @@
 }
 
 .hero-card{
-    position: relative;
-    padding-top: 150px;
+    /* position: relative; */
+    padding-top: 60px;
     background-color: rgba(235, 237, 238, 0.89);
     color: black;
 
@@ -76,9 +77,9 @@
     border-radius: 50px;
     height: 110px;
     width: 110px;
-    position: absolute;
-    left: 70px;
-    top: 20px;
+    /* position: absolute;
+    left: 150px;
+    top: 20px; */
 
 }
 
@@ -102,14 +103,19 @@
     background-color: coral;
     color: black;
 }
+
+.blogs-arrow{
+    position: relative;
+}
 .blog-arrow-1{
     position: absolute;
-    left: 450px;
+    right: 130px;
+    top: 15px;
 }
 
 .blog-arrow-2{
-    position: absolute;
-    left: 500px;
+
+
 }
 
 .hero-foot{
